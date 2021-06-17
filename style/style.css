@@ -10,20 +10,20 @@ body{
 }
 .main-container{
     display: flex;
+    height: calc(100vh - 100px);
 }
 
 /* navbar */
 
 .nav-bar{
    background-color: black;
-   height: 100vh;
    width: 60px;
    
 }
 /* .main-page */
 .main-page{
-    height: calc(100vh - 200px);
     flex-grow: 1;
+    overflow-y: auto;
 }
 
 .top-bar{
@@ -32,12 +32,18 @@ body{
     background-color: rgba(0, 0, 0, 0.3);
     position: fixed;
 }
-
+main{
+    height: calc(100vh - 100px);
+} 
+p{
+    color: white;
+}
 /* footer */
 .f-container{
     height: 100px;
     width: 100%;
     background-color: grey;
+    position: fixed;
 }
 
 
