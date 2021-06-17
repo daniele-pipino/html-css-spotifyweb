@@ -1,25 +1,42 @@
+/* utilities */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
 body{
     background-color: rgb(26, 26, 46);
 }
-.main-container{
-    display: flex;
-    height: calc(100vh - 100px);
+
+img{
+    width: 100%;
 }
 
+.flex{
+    display: flex;
+}
+.ud-spacing{
+    padding: 10px 0;
+}
+/* container */
+.main-container{
+    display: flex;
+    height: calc(100vh - 85px);
+}
 /* navbar */
 
 .nav-bar{
    background-color: black;
-   width: 60px;
-   
+   width: 50px;
+   padding: 10px 10px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
 }
+
+
 /* .main-page */
 .main-page{
     flex-grow: 1;
@@ -32,19 +49,21 @@ body{
     background-color: rgba(0, 0, 0, 0.3);
     position: fixed;
 }
+
+
 main{
-    height: calc(100vh - 100px);
+    padding-top: 115px;
 } 
-p{
-    color: white;
-}
+
+
 /* footer */
 .f-container{
-    height: 100px;
+    height: 85px;
     width: 100%;
     background-color: grey;
     position: fixed;
 }
+
 
 
 
