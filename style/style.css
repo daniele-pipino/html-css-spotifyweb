@@ -8,17 +8,35 @@
 
 body{
     background-color: rgb(26, 26, 46);
+    font-family: 'Montserrat', sans-serif;
 }
 
 img{
     width: 100%;
 }
 
+ul li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(148, 147, 147);
+    font-size: 13px;
+}
+
 .flex{
     display: flex;
 }
+
 .ud-spacing{
-    padding: 10px 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.lr-spacing{
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .btn{
@@ -71,7 +89,15 @@ main{
     padding-top: 115px;
 } 
 
+.main-list ul{
+    display: flex;
+    justify-content: center;
+}
 
+.main-content{
+    margin: 15px;
+    color: white;
+}
 /* footer */
 .f-container{
     height: 85px;
