@@ -40,62 +40,62 @@
 
 /* --------col 12--------- */
 
-.col-12-sm{
+.col-12{
     width: calc(100% / 12 * 12);
     max-width: calc(100% / 12 * 12);
 }
 
-.col-11-sm{
+.col-11{
     width: calc(100% / 12 * 11);
     max-width: calc(100% / 12 * 11);
 }
 
-.col-10-sm{
+.col-10{
     width: calc(100% / 12 * 10);
     max-width: calc(100% / 12 * 10);
 }
 
-.col-9-sm{
+.col-9{
     width: calc(100% / 12 * 9);
     max-width: calc(100% / 12 * 9);
 }
 
-.col-8-sm{
+.col-8{
     width: calc(100% / 12 * 8);
     max-width: calc(100% / 12 * 8);
 }
 
-.col-7-sm{
+.col-7{
     width: calc(100% / 12 * 7);
     max-width: calc(100% / 12 * 7);
 }
 
-.col-6-sm{
+.col-6{
     width: calc(100% / 12 * 6);
     max-width: calc(100% / 12 * 6);
 }
 
-.col-5-sm{
+.col-5{
     width: calc(100% / 12 * 5);
     max-width: calc(100% / 12 * 5);
 }
 
-.col-4-sm{
+.col-4{
     width: calc(100% / 12 * 4);
     max-width: calc(100% / 12 * 4);
 }
 
-.col-3-sm{
+.col-3{
     width: calc(100% / 12 * 3);
     max-width: calc(100% / 12 * 3);
 }
 
-.col-2-sm{
+.col-2{
     width: calc(100% / 12 * 2);
     max-width: calc(100% / 12 * 2);
 }
 
-.col-1-sm{
+.col-1{
     width: calc(100% / 12 * 1);
     max-width: calc(100% / 12 * 1);
 }

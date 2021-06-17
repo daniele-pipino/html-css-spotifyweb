@@ -25,7 +25,7 @@ a{
     font-size: 13px;
 }
 
-.flex{
+.row{
     display: flex;
 }
 
@@ -37,6 +37,10 @@ a{
 .lr-spacing{
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.album-spacing{
+    padding-left: 15px;
 }
 
 .btn{
@@ -98,6 +102,16 @@ main{
     margin: 15px;
     color: white;
 }
+/* album */
+
+.row img{
+    width: 180px;
+}
+
+.album-text{
+    text-align: center;
+}
+
 /* footer */
 .f-container{
     height: 85px;
