@@ -28,6 +28,7 @@ a{
 .row{
     display: flex;
 }
+
 /* -----spacing--------- */
 .ud-spacing{
     padding-top: 10px;
@@ -122,6 +123,11 @@ main{
     font-weight: 600;
     color: rgb(148, 147, 147);
 }
+
+.row .circular{
+    border-radius: 50%;
+}
+
 
 /* footer */
 .f-container{
