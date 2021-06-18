@@ -133,9 +133,44 @@ main{
 .f-container{
     height: 85px;
     width: 100%;
+    padding: 10px 10px;
+    text-align: center;
     background-color: grey;
-    position: fixed;
+
+    display: flex;
 }
+
+.f-container .left{
+    display: flex;
+    align-items: center;
+}
+
+.f-container .left .player-img{
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/mixdaily.jpeg);
+    background-size: cover;
+}
+
+.f-container .left .player-info{
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.f-container .left h5{
+    font-weight: 1000;
+}
+
+.f-container .left .player-text{
+    font-size: 12px;
+}
+
+.f-container .left .left-icon{
+    display: flex;
+    flex-direction: column;
+}
+
 
 
 
