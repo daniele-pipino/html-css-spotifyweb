@@ -28,6 +28,8 @@ a{
 .nav-flex{
     display: flex;
     align-items: center;
+    padding-left: 5px;
+    
 }
 
 .nav-flex p{
@@ -38,10 +40,19 @@ a{
     display: none;
 }
 
+.brd-g:hover{
+    border-left: 2px solid green;
+}
+
+.brd-g-d:hover{
+    border-bottom: 2px solid green;
+    padding-bottom: 1px;
+}
+
 /* -----spacing--------- */
 .ud-spacing{
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 }
 
 .lr-spacing{
@@ -95,6 +106,29 @@ a{
 .nav-bar .small-logo{
     display: block;
 }
+
+.nav-bar p:hover{
+    color: white;
+}
+
+.playlist h3{
+    color: white;
+}
+
+.playlist p{
+    padding-left: 5px;
+}
+
+.nav-bar .playlist p:hover{
+    color: white;
+}
+
+.bottom-item .download{
+    padding-bottom: 5px;
+    border-bottom: 1px solid grey;
+}
+
+
 
 /* .main-page */
 .main-page{
