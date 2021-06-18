@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./style/12bool.css">
-    <link rel="stylesheet" href="./style/responsive.css">
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/responsive.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700" rel="stylesheet"/>
     <title>Spotify Web</title>
 </head>
@@ -16,15 +16,49 @@
 <div class="main-container"> 
     <div class="nav-bar">
         <div class="top-item">
-            <img src="./img/logo-small.svg" alt="">
-            <img class="ud-spacing" src="./img/home.svg" alt="">
-            <img class="ud-spacing" src="./img/search.svg" alt="">
-            <img class="ud-spacing" src="./img/libreria.svg" alt="">
+            <!-- icons -->
+            <div class="big-logo">
+                <img src="./img/logo.svg" alt="">
+            </div>
+            <div class="small-logo"> 
+                <img src="./img/logo-small.svg" alt="">
+            </div>
+            <div class="nav-flex">
+                <img class="ud-spacing" src="./img/home.svg" alt="">
+                <p>Home</p>
+            </div>
+            <div class="nav-flex">
+                <img class="ud-spacing" src="./img/search.svg" alt="">
+                <p>Cerca</p>
+            </div>
+            <div class="nav-flex">
+                <img class="ud-spacing" src="./img/libreria.svg" alt="">
+                <p>La tua libreria</p>
+            </div>
+            <!-- playlist -->
+            <div class="playlist">
+                <h3 class="ud-spacing">Playlist</h3>
+                <div class="new-playlist nav-flex">
+                    <i class="far fa-plus-square fa-2x"></i>
+                    <p>Crea Playlist</p>
+                </div>
+                <p>Nome Playlist</p>
+                <p>Nome Playlist</p>
+                <p>Nome Playlist</p>
+                <p>Nome Playlist</p>
+                <p>Nome Playlist</p>
+            </div>
         </div>
+
         <div class="bottom-item">
-            <img src="./img/download.svg" alt="">
-            <img class="ud-spacing" src="./img/profile.svg" alt="">
+            <div>
+                <img src="./img/download.svg" alt="">
+            </div>
+            <div>
+                <img class="ud-spacing" src="./img/profile.svg" alt="">
+            </div>
         </div>
+
     </div>
     <div class="main-page">
         <!-- header -->
@@ -44,11 +78,12 @@
                   <li> <a class="lr-spacing ud-spacing" href="#">PODCAST</a> </li>
                   <li> <a class="lr-spacing ud-spacing" href="#">CLASSIFICHE</a> </li>
                   <li> <a class="ud-spacing" href="#">GENERI E MOOD</a> </li>
+                  <li> <a class="lr-spacing ud-spacing" href="#">NUOVE USCITE</a> </li>
+                  <li> <a class="lr-spacing ud-spacing" href="#">SCOPRI</a> </li>
               </ul>
-              <ul class="ud-spacing">
-                <li> <a class="lr-spacing ud-spacing" href="#">NUOVE USCITE</a> </li>
-                <li> <a class="lr-spacing ud-spacing" href="#">SCOPRI</a> </li>
-              </ul>
+              
+                
+              
           </div>
 
           <!-- albums -->
