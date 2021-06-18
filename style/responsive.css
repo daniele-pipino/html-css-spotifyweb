@@ -1,7 +1,7 @@
 @media screen and (min-width:576px){
     .nav-bar{
         background-color: black;
-        width: 200px;
+        width: 150px;
         padding: 10px 10px;
      
         display: flex;
@@ -25,6 +25,14 @@
     .nav-flex p{
         display: block;
         padding-left: 5px;
+    }
+
+    .nav-bar .playlist{
+        display: block;
+    }
+
+    .top-bar{
+        padding-right: 155px;
     }
 }
 

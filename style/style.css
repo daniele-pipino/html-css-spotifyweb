@@ -34,6 +34,10 @@ a{
     display: none;
 }
 
+.nav-bar .playlist{
+    display: none;
+}
+
 /* -----spacing--------- */
 .ud-spacing{
     padding-top: 10px;
@@ -41,12 +45,12 @@ a{
 }
 
 .lr-spacing{
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .album-spacing{
-    padding-left: 20px;
+    padding-left: 15px;
 }
 
 .btn{
@@ -70,12 +74,14 @@ a{
    background-color: black;
    color: grey;
    width: 50px;
-   padding: 10px 10px;
+   padding: 10px 0;
 
    display: flex;
    flex-direction: column;
+   align-items: center;
    justify-content: space-between;
    flex-wrap: wrap;
+   flex-shrink: 0;
 }
 
 .nav-bar img{
@@ -89,7 +95,6 @@ a{
 .nav-bar .small-logo{
     display: block;
 }
-
 
 /* .main-page */
 .main-page{
@@ -107,6 +112,7 @@ a{
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    flex-shrink: 0;
 }
 
 /* main */
