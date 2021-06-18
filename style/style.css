@@ -144,7 +144,7 @@ main{
     display: flex;
     align-items: center;
 }
-
+/* left part */
 .f-container .left .player-img{
     width: 50px;
     height: 50px;
@@ -169,6 +169,36 @@ main{
 .f-container .left .left-icon{
     display: flex;
     flex-direction: column;
+    padding-right: 15px;
+}
+/* center */
+.f-container .center{
+    display: flex;
+    flex-direction: column;
+}
+
+.f-container .center .center-top,
+.center-down{
+    display: flex;
+    align-items: center;
+}
+/* center top */
+.center .center-top i{
+    padding-right: 25px;
+}
+/* center down */
+
+.center .center-down{
+    margin-top: 10px;
+}
+.center .center-down div{
+    margin-right: 10px;
+}
+.center .center-down .playbar{
+    height: 8px;
+    border-radius: 5px;
+    width: 100px;
+    background-color: lightsteelblue;
 }
 
 
