@@ -138,6 +138,8 @@ main{
     background-color: grey;
 
     display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
 }
 
 .f-container .left{
@@ -183,6 +185,11 @@ main{
     align-items: center;
 }
 /* center top */
+
+.center .center-top{
+    margin-top: 10px;
+}
+
 .center .center-top i{
     padding-right: 25px;
 }
@@ -198,7 +205,21 @@ main{
     height: 8px;
     border-radius: 5px;
     width: 100px;
-    background-color: lightsteelblue;
+    background-color: lightgrey;
+}
+/* right part */
+.f-container .right{
+    display: flex;
+    align-items: center;
+}
+.right i{
+    margin-right: 15px;
+}
+.right .volume-bar{
+    height: 5px;
+    width: 70px;
+    border-radius: 5px;
+    background-color: whitesmoke;
 }
 
 
