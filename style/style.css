@@ -35,12 +35,12 @@ a{
 }
 
 .lr-spacing{
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .album-spacing{
-    padding-left: 15px;
+    padding-left: 20px;
 }
 
 .btn{
@@ -64,9 +64,15 @@ a{
    background-color: black;
    width: 50px;
    padding: 10px 10px;
+
    display: flex;
    flex-direction: column;
    justify-content: space-between;
+   flex-wrap: wrap;
+}
+
+.nav-bar img{
+    width: 25px;
 }
 
 
@@ -110,6 +116,11 @@ main{
 
 .album-text{
     text-align: center;
+}
+
+.row .recommendations{
+    font-weight: 600;
+    color: rgb(148, 147, 147);
 }
 
 /* footer */
