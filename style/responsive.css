@@ -20,6 +20,7 @@
     
     .nav-bar .small-logo{
         display: none;
+        padding-left: 5px;
     }
 
     .nav-flex p{
@@ -33,6 +34,10 @@
 
     .top-bar{
         padding-right: 155px;
+    }
+
+    .nav-flex{
+        padding-left: 5px;
     }
 
 }

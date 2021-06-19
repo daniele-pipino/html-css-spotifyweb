@@ -28,7 +28,6 @@ a{
 .nav-flex{
     display: flex;
     align-items: center;
-    padding-left: 5px;
     
 }
 
@@ -161,7 +160,7 @@ main{
 }
 
 .main-content{
-    margin: 15px;
+    margin: 10px;
     color: white;
 }
 /* album */
@@ -195,6 +194,10 @@ main{
     display: flex;
     flex-grow: 1;
     justify-content: space-between;
+}
+
+.f-container i{
+    color: white;
 }
 
 .f-container .left{
@@ -267,9 +270,11 @@ main{
     display: flex;
     align-items: center;
 }
+
 .right i{
     margin-right: 15px;
 }
+
 .right .volume-bar{
     height: 5px;
     width: 70px;
