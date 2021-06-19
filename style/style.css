@@ -44,14 +44,15 @@ a{
 }
 
 .brd-g-d:hover{
-    border-bottom: 2px solid green;
+    border-bottom: 2px  solid green;
     padding-bottom: 1px;
+    color: white;
 }
 
 /* -----spacing--------- */
 .ud-spacing{
     padding-top: 10px;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
 }
 
 .lr-spacing{
@@ -148,6 +149,10 @@ a{
     flex-shrink: 0;
 }
 
+.top-bar .top-btn:hover{
+    transform: scale(1.1);
+}
+
 /* main */
 main{
     padding-top: 115px;
@@ -198,6 +203,10 @@ main{
 
 .f-container i{
     color: white;
+}
+
+.f-container i:hover{
+    transform: scale(1.2);
 }
 
 .f-container .left{
@@ -256,16 +265,20 @@ main{
 .center .center-down{
     margin-top: 10px;
 }
+
 .center .center-down div{
     margin-right: 10px;
 }
+
 .center .center-down .playbar{
     height: 8px;
     border-radius: 5px;
     width: 100px;
     background-color: lightgrey;
 }
+
 /* right part */
+
 .f-container .right{
     display: flex;
     align-items: center;
