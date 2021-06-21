@@ -232,14 +232,11 @@ main{
 
 .row .circular{
     border-radius: 50%;
-    width: 203px;
 }
 
 /* recommendation section */
 
-#suggerimenti img{
-    width: 203px;
-} 
+
 
 /* footer */
 .f-container{

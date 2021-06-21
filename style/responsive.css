@@ -2,7 +2,7 @@
 
     .nav-bar{
         background-color: black;
-        width: 150px;
+        width: 200px;
         padding: 10px 10px;
      
         display: flex;
@@ -47,7 +47,7 @@
 
 
 
-@media screen and (max-height:700px){
+@media screen and (max-height:645px){
     .nav-bar .bottom-item{
         display: none;
     }
