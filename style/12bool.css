@@ -152,7 +152,71 @@
 
 /* responsiveness */
 
-@media  screen and(min-width:576px) {
+@media  screen and (min-width:500px) {
+    .col-12-xs{
+        width: calc(100% / 12 * 12);
+        max-width: calc(100% / 12 * 12);
+    }
+    
+    .col-11-xs{
+        width: calc(100% / 12 * 11);
+        max-width: calc(100% / 12 * 11);
+    }
+    
+    .col-10-xs{
+        width: calc(100% / 12 * 10);
+        max-width: calc(100% / 12 * 10);
+    }
+    
+    .col-9-xs{
+        width: calc(100% / 12 * 9);
+        max-width: calc(100% / 12 * 9);
+    }
+    
+    .col-8-xs{
+        width: calc(100% / 12 * 8);
+        max-width: calc(100% / 12 * 8);
+    }
+    
+    .col-7-xs{
+        width: calc(100% / 12 * 7);
+        max-width: calc(100% / 12 * 7);
+    }
+    
+    .col-6-xs{
+        width: calc(100% / 12 * 6);
+        max-width: calc(100% / 12 * 6);
+    }
+    
+    .col-5-xs{
+        width: calc(100% / 12 * 5);
+        max-width: calc(100% / 12 * 5);
+    }
+    
+    .col-4-xs{
+        width: calc(100% / 12 * 4);
+        max-width: calc(100% / 12 * 4);
+    }
+    
+    .col-3-xs{
+        width: calc(100% / 12 * 3);
+        max-width: calc(100% / 12 * 3);
+    }
+    
+    .col-2-xs{
+        width: calc(100% / 12 * 2);
+        max-width: calc(100% / 12 * 2);
+    }
+    
+    .col-1-xs{
+        width: calc(100% / 12 * 1);
+        max-width: calc(100% / 12 * 1);
+    }
+    
+}
+
+
+@media  screen and (min-width:576px) {
     .col-12-sm{
         width: calc(100% / 12 * 12);
         max-width: calc(100% / 12 * 12);
@@ -215,7 +279,7 @@
     
 }
 /* medium */
-@media screen and(min-width:768px) {
+@media screen and (min-width:768px) {
     .col-12-md{
         width: calc(100% / 12 * 12);
         max-width: calc(100% / 12 * 12);
